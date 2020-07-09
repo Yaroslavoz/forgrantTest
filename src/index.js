@@ -1,12 +1,17 @@
-// import 'styles.css';
-import 'styles.scss';
-import axios from 'axios';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './styles/main.css';
+import App from './App';
 
-import setPrice from 'js/setPrice';
-import getPriceChanges from 'js/getPriceChanges';
-import removeSelected from 'js/select';
-import inputChecked from 'js/hasChecked';
-import main from 'js/main';
 
-main();
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
 
