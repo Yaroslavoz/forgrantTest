@@ -7,15 +7,15 @@ const SourceProvider = (props) => {
     <SourceContext.Provider value={[
       {
         name: 'ETH',
-        src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR6HcrYyBTwwAEI1Oj_zYeOEbxZ1cp1BLBpyQ&usqp=CAU'
+        src: 'https://www.crypto-news-flash.com/wp-content/uploads/2019/06/Inked-Pixels-2-Ethereum-1000x516.jpg'
       },
       {
         name: 'LTC',
-        src: './images/litecoin@1x.png'
+        src: 'https://mining-cryptocurrency.ru/wp-content/uploads/Litecoin-comissions.jpg'
       },
       {
         name: 'BTC',
-        src: './images/bitcoin@1x.png'
+        src: 'https://pbs.twimg.com/media/ETWKT2eUYAAfnaD.jpg:large'
       }
     ]}>
       {props.children}

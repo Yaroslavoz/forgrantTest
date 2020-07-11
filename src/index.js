@@ -2,10 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/main.css';
 import App from './App';
+import { SourceProvider } from './SourceContext'
 
 
 ReactDOM.render(
-    <App />,
+  <SourceProvider>
+    <App />
+  </SourceProvider> 
+    ,
   document.getElementById('root')
 );
 // If you want your app to work offline and load faster, you can change
