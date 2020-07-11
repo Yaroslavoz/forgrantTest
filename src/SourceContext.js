@@ -7,7 +7,7 @@ const SourceProvider = (props) => {
     <SourceContext.Provider value={[
       {
         name: 'ETH',
-        src: '../images/ethereum@1x.png'
+        src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR6HcrYyBTwwAEI1Oj_zYeOEbxZ1cp1BLBpyQ&usqp=CAU'
       },
       {
         name: 'LTC',
