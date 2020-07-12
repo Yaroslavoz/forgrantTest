@@ -1,12 +1,13 @@
-import React from 'react';
-import './styles/main.css';
-import './styles/style.css';
+import React from "react";
+import "./styles/main.css";
+import "./styles/style.css";
+
+import { Select } from "./components/Select";
 
 function App() {
   return (
     <>
-      <h1 className='text-white'>This is a great React app</h1>
-      
+      <Select />
     </>
   );
 }
