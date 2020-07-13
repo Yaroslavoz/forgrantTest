@@ -6,3 +6,6 @@ body {
   background-position: 50%;
   min-height: 100vh;
 }
+.container:first-child {
+  margin-bottom: -5px;
+}
