@@ -10,6 +10,9 @@ const options = CURRENCYS_TO_SELECT.map(
 
 // styles
 const headerStyles = `
+  container 
+  w-3/4 
+  mx-auto
   max-w-screen-lg 
   bg-header-bg 
   flex justify-between items-center
